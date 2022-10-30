@@ -1,0 +1,107 @@
+.homescreen {
+  width: 90%;
+
+  margin: auto;
+
+  padding: 1rem;
+
+  color: aliceblue;
+}
+.scenerio-selection {
+  display: flex;
+  flex-direction: column;
+}
+
+.scenerio-selection > select {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+
+  background: #333333;
+
+  color: aliceblue;
+  font-size: medium;
+
+  border: none;
+
+  border-radius: 0.25rem;
+
+  width: 20%;
+
+  cursor: pointer;
+}
+
+.home-content .actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home-content .actions > button {
+  width: 10rem;
+}
+
+.home-content .actions > button:nth-child(1) {
+  background: green;
+}
+
+.home-content .actions > button:nth-child(2) {
+  background: rgb(91, 174, 206);
+}
+
+.home-content .actions > button:nth-child(1):hover {
+  background: rgb(1, 114, 1);
+}
+
+.home-content .actions > button:nth-child(2):hover {
+  background: rgb(77, 146, 173);
+}
+
+.home-content .actions > button:nth-child(1):active {
+  background: rgb(0, 91, 0);
+}
+
+.home-content .actions > button:nth-child(2):active {
+  background: rgb(66, 126, 149);
+}
+
+.graph {
+  width: 90%;
+  height: 20rem;
+
+  margin: auto;
+}
+
+.no-vehicles-added-msg,
+.select-scenerio-msg {
+  width: 90%;
+
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.no-vehicles-added-msg > button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+
+  cursor: pointer;
+
+  border: none;
+  border-radius: 0.5rem;
+
+  color: aliceblue;
+}
+
+.no-vehicles-added-msg > button {
+  background: rgb(91, 174, 206);
+}
+
+.no-vehicles-added-msg > button:hover {
+  background: rgb(77, 146, 173);
+}
+
+.no-vehicles-added-msg > button:active {
+  background: rgb(66, 126, 149);
+}

@@ -1,0 +1,78 @@
+.all-scenerios-screen {
+  padding: 1rem;
+
+  color: aliceblue;
+
+  width: 90%;
+
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions button {
+  padding: 1rem;
+
+  width: 8rem;
+}
+
+.actions button:nth-child(1) {
+  background: rgb(91, 174, 206);
+}
+
+.actions button:nth-child(2) {
+  background: green;
+}
+
+.actions button:nth-child(3) {
+  background: orange;
+}
+
+.actions button:nth-child(1):hover {
+  background: rgb(78, 151, 180);
+}
+
+.actions button:nth-child(2):hover {
+  background: rgb(1, 110, 1);
+}
+
+.actions button:nth-child(3):hover {
+  background: rgb(222, 145, 2);
+}
+
+.actions button:nth-child(1):active {
+  background: rgb(63, 122, 145);
+}
+
+.actions button:nth-child(2):active {
+  background: rgb(1, 89, 1);
+}
+
+.actions button:nth-child(3):active {
+  background: rgb(164, 107, 2);
+}
+
+.table-header,
+.table-item {
+  background: #333;
+
+  margin-top: 1rem;
+  padding: 1rem;
+
+  border-radius: 0.25rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-header span,
+.table-item span {
+  width: calc(100% / 7);
+
+  text-align: center;
+}

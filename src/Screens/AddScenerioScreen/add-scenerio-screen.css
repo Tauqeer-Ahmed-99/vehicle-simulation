@@ -1,0 +1,121 @@
+.add-scenerio-screen {
+  padding: 1rem;
+
+  height: 100%;
+  width: 100%;
+
+  color: aliceblue;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+
+  padding: 1rem;
+  margin: auto;
+}
+
+.add-scenerio-form {
+  width: 100%;
+  margin: auto;
+  margin-top: 1rem;
+
+  height: auto;
+
+  background: #333333;
+
+  border-radius: 0.25rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.add-scenerio-form > div {
+  width: 100%;
+
+  margin: 2rem;
+
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.add-scenerio-form > div input {
+  height: 2.5rem;
+
+  padding: 1rem;
+  margin-top: 0.5rem;
+
+  background: #1e1e1e;
+
+  color: aliceblue;
+  font-size: medium;
+
+  border: none;
+
+  border-radius: 0.25rem;
+}
+
+.actions {
+  margin-top: 1rem;
+}
+
+.actions > button {
+  margin-right: 1rem;
+
+  height: 3rem;
+  width: 6rem;
+
+  cursor: pointer;
+
+  border: none;
+  border-radius: 0.5rem;
+
+  color: aliceblue;
+  font-weight: 500;
+}
+
+.actions > button:nth-child(1) {
+  background: green;
+}
+
+.actions > button:nth-child(2) {
+  background: orange;
+}
+
+.actions > button:nth-child(3) {
+  background: rgb(91, 174, 206);
+}
+
+.actions > button:nth-child(1):hover {
+  background: rgb(1, 94, 1);
+}
+
+.actions > button:nth-child(2):hover {
+  background: rgb(201, 130, 0);
+}
+
+.actions > button:nth-child(3):hover {
+  background: rgb(74, 141, 168);
+}
+
+.actions > button:nth-child(1):active {
+  background: rgb(0, 70, 0);
+}
+
+.actions > button:nth-child(2):active {
+  background: rgb(159, 104, 1);
+}
+
+.actions > button:nth-child(3):active {
+  background: rgb(58, 109, 129);
+}
+
+.error-msg {
+  position: absolute;
+  bottom: -1.5rem;
+
+  color: red;
+}

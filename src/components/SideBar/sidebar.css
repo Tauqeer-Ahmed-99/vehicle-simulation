@@ -1,0 +1,83 @@
+.sidebar-screen {
+  height: 100vh;
+  width: 100vw;
+}
+
+.sidebar {
+  width: 15%;
+  height: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background: #c0c8d1;
+
+  padding-top: 2rem;
+}
+
+.sidebar-tile {
+  height: 3rem;
+
+  cursor: pointer;
+
+  font-weight: 500;
+
+  padding: 1rem;
+  margin: auto 1rem 1rem 1rem;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 1rem;
+}
+
+.sidebar-tile:hover {
+  background: #d5d6d8;
+}
+
+.sidebar-tile.active {
+  background: #edf0f4;
+
+  color: cornflowerblue;
+
+  position: relative;
+}
+
+.sidebar-tile.active::before {
+  content: "";
+  height: 3rem;
+  width: 1rem;
+
+  background: #edf0f4;
+
+  position: absolute;
+  top: 0;
+  left: -1.5rem;
+
+  border-radius: 1rem;
+}
+
+.content {
+  width: 85%;
+  height: 100%;
+
+  position: fixed;
+  right: 0;
+  top: 0;
+
+  background: #1e1e1e;
+
+  overflow: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.content {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

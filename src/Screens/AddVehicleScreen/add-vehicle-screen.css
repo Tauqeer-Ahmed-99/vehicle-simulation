@@ -1,0 +1,111 @@
+.add-vehicle-screen {
+  width: 90%;
+
+  margin: auto;
+  padding: 1rem;
+
+  color: aliceblue;
+}
+
+.add-vehicle-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+
+  background: #333333;
+
+  padding: 1rem;
+  margin-top: 1rem;
+
+  border-radius: 0.25rem;
+}
+
+.add-vehicle-form .group1,
+.add-vehicle-form .group2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100%;
+
+  margin: 1rem;
+}
+
+.add-vehicle-form .group1 > div,
+.add-vehicle-form .group2 > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-vehicle-form .group1 > div,
+.add-vehicle-form .group2 > div {
+  width: calc(100% / 4);
+
+  position: relative;
+}
+
+.add-vehicle-form .group1 > div > input,
+.add-vehicle-form .group2 > div > input,
+.add-vehicle-form .group1 > div > select,
+.add-vehicle-form .group2 > div > select {
+  height: 2.5rem;
+
+  padding: 1rem;
+  margin-top: 0.5rem;
+
+  background: #1e1e1e;
+
+  color: aliceblue;
+  font-size: medium;
+
+  border: none;
+
+  border-radius: 0.25rem;
+}
+
+.add-vehicle-form .group1 > div > select,
+.add-vehicle-form .group2 > div > select {
+  padding: 0 1rem;
+
+  cursor: pointer;
+}
+
+.add-vehicle-screen .container .actions > button:nth-child(1) {
+  background: green;
+}
+.add-vehicle-screen .container .actions > button:nth-child(2) {
+  background: orange;
+}
+.add-vehicle-screen .container .actions > button:nth-child(3) {
+  background: rgb(91, 174, 206);
+}
+
+.add-vehicle-screen .container .actions > button:nth-child(1):hover {
+  background: rgb(0, 110, 0);
+}
+.add-vehicle-screen .container .actions > button:nth-child(2):hover {
+  background: rgb(235, 153, 2);
+}
+.add-vehicle-screen .container .actions > button:nth-child(3):hover {
+  background: rgb(76, 143, 169);
+}
+
+.add-vehicle-screen .container .actions > button:nth-child(1):active {
+  background: rgb(0, 71, 0);
+}
+.add-vehicle-screen .container .actions > button:nth-child(2):active {
+  background: rgb(193, 126, 2);
+}
+.add-vehicle-screen .container .actions > button:nth-child(3):active {
+  background: rgb(59, 110, 131);
+}
+
+.error-msg {
+  position: absolute;
+
+  font-size: small;
+}

@@ -1,0 +1,38 @@
+.no-scenerios {
+  width: 90%;
+
+  margin: auto;
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  color: aliceblue;
+}
+
+.no-scenerios > button {
+  width: 10rem;
+
+  padding: 1rem;
+
+  font-weight: 500;
+
+  background: rgb(91, 174, 206);
+
+  margin-top: 1rem;
+
+  border: none;
+  border-radius: 0.5rem;
+
+  cursor: pointer;
+}
+
+.no-scenerios > button:hover {
+  background: rgb(105, 196, 232);
+}
+
+.no-scenerios > button:active {
+  background: rgb(67, 125, 147);
+}

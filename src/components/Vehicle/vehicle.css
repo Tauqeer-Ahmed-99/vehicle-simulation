@@ -1,0 +1,18 @@
+.vehicle {
+  position: absolute;
+
+  width: 1rem;
+  height: 1rem;
+
+  border-radius: 1rem;
+
+  transform: translate(-50%, -50%);
+
+  transition-timing-function: linear;
+
+  font-size: x-small;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
